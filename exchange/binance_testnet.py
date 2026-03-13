@@ -7,7 +7,6 @@ Uses the python-binance library pointed at the Binance Spot Testnet
 
 from __future__ import annotations
 
-import time
 from typing import Optional
 
 from binance.client import Client

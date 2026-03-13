@@ -1,5 +1,7 @@
 # trading-bot
 
+[![CI](https://github.com/Rishikesh106/trading-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/Rishikesh106/trading-bot/actions/workflows/ci.yml)
+
 A Python-based cryptocurrency trading bot for the **Binance Spot Testnet**. It implements a Simple Moving Average (SMA) crossover strategy and places market orders automatically — no real funds are ever at risk.
 
 ---
@@ -107,7 +109,7 @@ The bot uses a **Simple Moving Average (SMA) crossover** strategy:
 ## Running tests
 
 ```bash
-pip install pytest
+pip install -r requirements-dev.txt
 python -m pytest tests/ -v
 ```
 
